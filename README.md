@@ -1,26 +1,24 @@
 # Guardians of the Galaxy
 
-May An van de Poll$^{1}$, Evan McCormick$^{1}$ and Ranajit Roy$^{1}$
-$^{1}$The University of Colorado Boulder, Boulder, Colorado 80309, USA
+May An van de Poll $^{1}$, Evan McCormick $^{1}$ and Ranajit Roy $^{1}$
+The University of Colorado Boulder, Boulder, Colorado 80309, USA
 
 ## Problem space
 It is hypothesized that gravitational lensing could help to understand the nature of dark matter and dark energy that are believed to dominate our Universe [1]. The effect of gravitational lensing is the appearance of distortion of the shapes of galaxies and this effect can be captured by a matrix distortion applied to the galaxy image:
-
-$\begin{pmatrix}
+```math
+$$\begin{pmatrix}
 		x_{u} \\  y_{u}
 	\end{pmatrix} = \begin{pmatrix}
    1-g_{1} & -g_{2} \\
    -g_{2} & 1+g_{1}
 \end{pmatrix} \begin{pmatrix}
 		x_{1} \\  y_{1}
-	\end{pmatrix}$
+	\end{pmatrix}$$
+```
 
+$\begin{bmatrix} x_{u} \\\  y_{u} \end{bmatrix} $ denotes a point on the original galaxy image and$\begin{pmatrix} x_{1} \\  y_{1} \end{pmatrix}$
 
-$\begin{pmatrix}
-		x_{u} \\  y_{u}
-	\end{pmatrix}$ denotes a point on the original galaxy image and $\begin{pmatrix}
-		x_{1} \\  y_{1}
-	\end{pmatrix}$  denotes the new position of this point on the distorted image [1].
+ denotes the new position of this point on the distorted image [1].
 
 A positive shear $g_{1}$ stretches an image along the $x$-axis and compresses along the $y$-axis while the same for $g_{2}$ stretches the image along the diagonal $y=x$ and compressed along $y=-x$.
 
